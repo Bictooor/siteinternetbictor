@@ -1,36 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+
 h1{
-	color: inherit;
-	background-color: white;
+	color:rgb(176,0,10) ;
 	font-family: 'Gemunu Libre', sans-serif;
 }
 h2{
-	color: rgb(255,0,10);
+	color: rgb(176,0,10);
 	font-size:16px; 
 	font-family: 'Gemunu Libre', sans-serif;
 }
-body{ text-align: center;
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
-</style> 
+img{
+	margin:24px ;
+	border-radius:6px ;
+
+}
+body { 
+	text-align: center;
+	background-image: url("images/Fond d'écran San Seb.jpg");
+	background-size: cover;
+
 }
 a {text-decoration: none;
 	color: black;
 }
 .button-blue {
-	background-color: blue;
+	background-color:rgb(176,0,10) ;
 	color: white;
 	font-weight: bold;
 	padding: 16px;
 	border-radius: 6px;
-	border: 1px blue solid;
+	border: 1px rgb(176,0,10) solid;
 	margin: 24px auto;
 	display: block;
 	width:  50%;
 	transition: 1s; 
  }
  	.button-blue:hover{
- 		background-color: white;
- 		color: blue;
+ 		background-color: #ffffff8c;
+ 		color: rgb(176,0,10);
  		transition: 1s;
  	}
  	i{
@@ -40,11 +47,17 @@ a {text-decoration: none;
 div{ width: 75%;
 	padding: 24px;
 	margin:24px auto;
-	background-color:white ;
+	background-color:#ffffff8c ;
 	border: solid 1px white;
 	border-radius: 8px;
 	box-shadow: 4px 6px 0px 0px #00000030
 	 }
-#list-inline li{
-
+	 
+ li{
+color: rgb(176,0,10);
+border:solid 1px white ;
+	border-radius:2px ;
+	display:inline;
 }
+
+	
